@@ -14,6 +14,8 @@ These instructions will help you run the program on your local machine.
 
 * You must have a mouse with at least 2 additional buttons.
 
+* Note: If you have a security software like Webroot you may need to disable it in order for this script to work for browsers. 
+
 ## Installing
 
 Simply copy paste the code into a empty notepad file and save it as ANY_NAME_YOU_DESIRE.ahk
