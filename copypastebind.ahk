@@ -9,6 +9,7 @@ seven :=
 eight :=
 nine := 
 
+
 ; Hotkeys begin here.
 ;#######################
 XButton1 & 1::
@@ -29,6 +30,7 @@ return
 XButton2 & 2::
 paste(two)
 return
+
 
 ;#######################
 XButton1 & 3::
@@ -102,7 +104,9 @@ return
 
 ;Functions begin here.
 copy(){
+clipboard := ;empty the clipboard 
 Send, ^c
+ClipWait  ; Wait for the clipboard to contain text.
 var := clipboard
 return var
 }
@@ -110,5 +114,6 @@ return var
 paste(var){
 clipboard := var
 Send, ^v
+clipboard := ;empty the clipboard
 return
 }
