@@ -22,7 +22,7 @@ Simply copy paste the code into a empty notepad file and save it as ANY_NAME_YOU
 
 ## Usage
 
-Go to where the file is saved and right-click on it. Click "Run Script" in the pop-up menu. 
+Go to where the file is saved and right-click on it. Click "Run Script" in the pop-up menu. Note: If this doesn't work try "Run as administrator" instead.
 
 ### Binding text to a number
 
