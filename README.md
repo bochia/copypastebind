@@ -20,6 +20,8 @@ Simply copy paste the code into a empty notepad file and save it as ANY_NAME_YOU
 
 ## Usage
 
+Go to where the file is saved and right-click on it. Click "Run Script" in the pop-up menu. 
+
 ### Binding text to a number
 
 1.) Highlight text you wish to bind to a number.
